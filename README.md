@@ -23,15 +23,15 @@ setInterval(function(){
 
 
 html:
-<div class="box>
+'<div class="box">
   <img style="position:absolute;top:0;left:0;" m-left="50" m-top="50">
 </div>
-<div class="box>
+<div class="box">
   <img style="position:absolute;top:0;left:0;" m-left="50" m-top="50">
 </div>
-<div class="box>
+<div class="box">
   <img style="position:absolute;top:0;left:0;" m-left="50" m-top="50">
-</div>
+</div>'
 
 
 上面的代码演示了一个完整的动画编写流程
