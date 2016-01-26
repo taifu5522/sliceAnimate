@@ -1,0 +1,87 @@
+.w-main{
+	width:1200px;
+}
+
+.header{
+	height:98px;
+	margin:auto;
+	background-color:#fff;
+	position:relative;
+	z-index:999;
+}
+.header .header-logo{
+	float:left;
+	padding-left:44px;
+}
+.header .header-txt{
+	float:left;
+	margin-left:32px;
+}
+.header .nav{
+	float:right;
+	height:98px;
+	margin:0;
+	line-height:98px;
+}
+.header .nav li{
+	float:left;
+	font-size:20px;
+	color:#1e78ff;
+	margin-right:52px;
+}
+.header .nav .on{
+	color:#6b6b6b;
+}
+.footer{
+	width:100%;
+	background-color:#fff;
+	overflow:hidden;
+	padding-top:36px;
+}
+.footer .footer-main{
+	margin:auto;
+	margin-bottom:34px;
+	overflow:hidden;
+}
+.footer .footer-main .footer-left{
+	text-align:center;
+	float:left;
+	margin-left:104px;
+}
+.footer .footer-main .footer-left p{
+	color:#434343;
+	font-size:20px;
+}
+.footer .footer-main .footer-right{
+	float:right;
+	margin-right:80px;
+}
+.footer .footer-main .footer-right p{
+	color:#7d7d7d;
+	font-size:20px;
+	height:27px;
+	margin-bottom:18px;
+}
+.footer .footer-main .footer-right img{
+	margin-right:12px;
+}
+.footer .footer-main .footer-right span{
+	position:relative;
+	top:-6px;
+}
+.footer .footer-main .footer-right a{
+	padding:6px 32px;
+	font-size:18px;
+	border:1px solid #1e78ff;
+	border-radius:20px;
+	float:left;
+	margin-top:10px;
+}
+.footer .footer-cp{
+	text-align:center;
+	background-color:#f7f7f7;
+	padding:10px 0;
+}
+.footer .footer-cp p{
+	color:#a2a2a2;
+}

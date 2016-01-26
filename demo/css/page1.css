@@ -1,0 +1,83 @@
+.banner{
+	overflow:hidden;
+	height:732px;
+	width:100%;
+	background-color:#fff;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.banner .index{
+	position:absolute;
+	left:50%;
+	bottom:56px;
+	z-index:20;
+}
+.banner .index div{
+	margin-left:-50%;
+	overflow:hidden;
+}
+.banner .index div i{
+	display:inline-block;
+	width:14px;
+	height:14px;
+	background:url(../src/icon2.png) center no-repeat;
+	margin:0 10px;
+	cursor:pointer;
+}
+.banner .index div .on{
+	background:url(../src/icon1.png) center no-repeat;
+}
+.banner .banner-main{
+	width:1200px;
+	height:732px;
+	margin:auto;
+	position:relative;
+}
+
+.banner .banner-pic{
+	position:absolute;
+	opacity:0;
+	z-index:10;
+}
+.banner .banner_a{
+	padding:10px 40px;
+	border:2px solid #fff;
+	border-radius:20px;
+	display:block;
+	position:absolute;
+	opacity:0;
+	z-index:10;
+	color:#fff;
+}
+.nbsp-banner{
+	height:732px;
+	margin-top:-100px;
+}
+
+.main{
+	position:relative;
+	padding:116px 0 181px 0;
+	background-color:#f6f6f6;
+}
+.main ul{
+	overflow:hidden;
+}
+.main ul li{
+	float:left;
+	width:33.3%;
+	text-align:center;
+}
+.main ul li .txt-big{
+	color:#636363;
+	font-size:24px;
+}
+.main ul li .txt-som{
+	font-size:16px;
+	color:#959595;
+}
+.main ul .center-li{
+	width:33%;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+}
