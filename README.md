@@ -19,20 +19,20 @@ setInterval(function(){
   setTimeout(function(){
     move.into(n) // 进入动画，参数:指定进入的动画下标。
   },time)
-},3000)
+},3000);
 
 
-html:
-'<div class="box">
-  <img style="position:absolute;top:0;left:0;" m-left="50" m-top="50">
+```html
+<div class="box">
+<img style="position:absolute;top:0;left:0;" m-left="50" m-top="50">
 </div>
 <div class="box">
-  <img style="position:absolute;top:0;left:0;" m-left="50" m-top="50">
+<img style="position:absolute;top:0;left:0;" m-left="50" m-top="50">
 </div>
 <div class="box">
-  <img style="position:absolute;top:0;left:0;" m-left="50" m-top="50">
-</div>'
-
+<img style="position:absolute;top:0;left:0;" m-left="50" m-top="50">
+</div>
+```
 
 上面的代码演示了一个完整的动画编写流程
 支持的行内声明式：
